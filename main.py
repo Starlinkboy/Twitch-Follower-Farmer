@@ -25,18 +25,18 @@ starlink = """
                                            """
 
 
-print(Colorate.Horizontal(Colors.red_to_black, (starlink)))
-TOKEN = input(Colorate.Horizontal(Colors.red_to_black,"Account Token: "))
+print(Colorate.Horizontal(Colors.red_to_green, (starlink)))
+TOKEN = input(Colorate.Horizontal(Colors.red_to_green,"Account Token: "))
 token = (TOKEN)
-
+user = input(Colorate.Horizontal(Colors.red_to_green,"Twitch user you wish to follow: "))
 client = discord.Client()
 
 @tasks.loop(minutes=1)
 async def test():
     
     channel = client.get_channel(997521861783068812)
-    await channel.send(f".tfollow starlinkboy")
-    print(Colorate.Horizontal(Colors.red_to_black, "Message Sent!"))
+    await channel.send(f".tfollow {user}")
+    print(Colorate.Horizontal(Colors.red_to_green, "Message Sent!"))
     
 @client.event
 async def on_ready():
