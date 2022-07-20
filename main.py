@@ -36,7 +36,7 @@ async def test():
     
     channel = client.get_channel(997521861783068812)
     await channel.send(f".tfollow {user}")
-    print(Colorate.Horizontal(Colors.red_to_green, "Message Sent!"))
+    print(Colorate.Horizontal(Colors.red_to_green, "Added Followers!"))
     
 @client.event
 async def on_ready():
