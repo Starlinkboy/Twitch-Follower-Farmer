@@ -1,5 +1,8 @@
 # Twitch Follower Farmer
  Farms twitch followers for an account using a selfbot. Account on which the selfbot is running must be in discord.gg/xtwitch
+ **Note: Currently the software is under maintainence and is not working. We are fixing it and will update you once it is working.**
+ ## Warning
+Self bots are against TOS of discord and are a bannable offense. Use this software at your own risk.
  
  ## Installing Python
  Python must be installed from [here](https://python.org) and added to PATH.
@@ -14,8 +17,8 @@
  ## Usage
  To Use the Farmer follow the following steps: 
  1. If you ran setup.bat, the program should be open. To open it again after closing it, run ```run.bat```.
- 
- 2. You should be good to go and have this on your screen.
+ 2. You must be in discord.gg/xtwitch to make the farmer work as it uses the xtwitch software and farms it.
+ 3. You should be good to go and have this on your screen.
  
 
 ![image](https://user-images.githubusercontent.com/89333014/179960826-d180a78f-d77f-496e-bf98-66be03f82881.png)
